@@ -16,4 +16,4 @@ export default async function AdminLayout({
 }
 
 //Dans Terminal : npm run dev
-//Lecture vidéo : 3:31:12 
+//Lecture vidéo : 3:44:03 
