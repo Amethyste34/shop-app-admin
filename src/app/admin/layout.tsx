@@ -40,4 +40,4 @@ export default async function AdminLayout({
 }
 
 //Dans Terminal : npm run dev
-//Lecture vidéo : 4:11:34 header themes
+//Lecture vidéo : 5:37:53
