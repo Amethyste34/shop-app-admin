@@ -1,13 +1,11 @@
-export type Product = {
-    id: number;
-    title: string;
-    slug: string;
-    imagesUrl: string[];
-    price: number;
-    heroImage: string;
-    category: number;
-    maxQuantity: number;
+import { ProductWithCategory } from "@/app/admin/products/products.types";
+
+export type Category = {
     created_at: string;
+    id: number;
+    imageUrl: string;
+    name: string;
+    slug: string;
 };
 
 export type CategoriesWithProducts = {
@@ -15,7 +13,7 @@ export type CategoriesWithProducts = {
     id: number;
     imageUrl: string;
     name: string;
-    products: Product[];
+    products: ProductWithCategory[];
     slug: string;
 };
 
